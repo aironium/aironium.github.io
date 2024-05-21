@@ -1,0 +1,251 @@
+* {
+font-family: Verdana, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: earthOrbiter;
+    src: url("../fonts/earthorbiter.ttf");
+}
+
+@font-face {
+    font-family: outage;
+    src: url("../fonts/outage.ttf");
+}
+
+
+@font-face {
+    font-family: earwax;
+    src: url("../fonts/earwax.ttf");
+}
+
+body {
+margin: 0%;
+height: 100%;
+width: 100%;
+background-image: url("../img/landDark.png");
+overflow-y:scroll;
+}
+
+.bodImg {
+//width: 90%;
+margin: 0%;
+height: auto;
+text-align: center;
+}
+
+.bodImg > img {
+width: 450px;
+height: auto;
+//border-radius: 12%;
+border: 5px inset #333333;
+}
+
+.genTxt > iframe {
+margin: auto;
+//width: 90%;
+//height: auto;
+display: block;
+margin-top: 2em;
+border: 5px outset gray;
+text-align: center;
+}
+
+iframe + hr {
+margin-top: 2em;
+}
+
+
+#tops{
+position: fixed;
+width: 100%;
+//margin-bottom: 5em;
+height: auto;
+z-index: 100;
+//margin: 0%;
+//margin-bottom: 5em;
+margin-top: -5em;
+}
+
+#nav {
+padding: 0.5em;
+width: 100%;
+background: #333333;
+height: auto;
+position: relative;
+display: block;
+margin: 0%;
+z-index: 100;
+//border: 5px solid green;
+}
+
+#nav-bottom {
+background: #444444;
+font-size: 1.5em;
+position: relative;
+z-index: 100;
+height: 2em;
+padding: 0.2em;
+border-bottom: 4px solid #333333;
+}
+
+#logo {
+width: 8em;
+}
+
+.nav-drop {
+position: relative;
+display: inline-block;
+background: #338833;
+border: 3px solid #115511;
+height: 1em;
+padding: 0.5em;
+text-align: left;
+width: 8em;
+float: left;
+color: white;
+margin-right:  0.25em;
+}
+
+.nav-drop > .navTx{
+text-align: left;
+display: block;
+}
+
+.nav-drop > .li {
+font-size: 0.7em;
+display: none;
+width: 8em;
+background: #555555;
+height: 1em;
+z-index: 200;
+text-align: center;
+padding: 1em;
+border: 3px solid #333333;
+position: relative;
+color: white;
+//margin: 0%;
+//margin-top: m;
+}
+
+.nav-drop > .li > a {
+text-decoration: none;
+color: white;
+}
+
+.nav-drop > .li1 {
+margin-top: 1.5em;
+
+}
+
+.nav-drop:hover > .li {
+display: block;
+}
+
+.nav-drop > .li:hover{
+background: #33aa33;
+border: 3px solid #337733;
+}
+
+
+.bod {
+height: auto;
+width: 100%;
+margin: 0%;
+margin-top: 5em;
+//background: #555555;
+display: block;
+position: relative;
+z-index: 2;
+//border: 1px solid magenta;
+}
+
+.prlx{
+//background-image: url("../img/harpia.png");
+//background: blue;
+background-size: cover;
+background-position: center;
+height: 900px;
+width: 100%;
+//border: 1px solid blue;
+display: block;
+color: white;
+z-index: -5;
+position: fixed;
+overflow:hidden;
+}
+
+#general {
+background-image: url("../img/generalAiron.gif");
+height: 400px;
+margin-top: 4em;
+}
+
+#airtek{
+background-image: url("../img/harpia.png");
+}
+
+#plastic{
+background-image: url("../img/plastic.jpg");
+}
+
+#monochrome{
+background-image: url("../img/monochrome.png");
+color: black;
+}
+
+#eee{
+background-image: url("../img/eeeImg11.jpg");
+color: black;
+}
+
+
+.bodBox {
+background: #000000aa;
+height: 75%;
+width: auto;
+z-index: 2;
+}
+
+.gigaTxt > p{
+font-size: 10em;
+word-wrap: break-text;
+color: white;
+text-align: center;
+//font-family: earthOrbiter;
+position: relative;
+display: inline-block;
+z-index: 3;
+}
+
+#gAirtek > p{
+font-family: earthOrbiter;
+}
+
+#gPlastic > p{
+font-family: outage;
+text-align: center;
+}
+
+#gMonochrome > p{
+font-family: earwax;
+text-align: center;
+//display: block;
+}
+
+.genTxt {
+height: auto;
+//border: 1px solid yellow;
+position: relative;
+background: #cccccc;
+//background-image: url("../img/land.png");
+z-index: 4;
+margin: 0%;
+padding: 1em;
+text-align: justify;
+}
+
+.transi {
+background: #333333;
+height: 3em;
+width: inherit;
+}
