@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.sc, #sc-side {
+    display: flex;
+}
+
+#sc-main, #sc-side{
+    border: 1px solid red;
+}
+
+.sc-side-tab {
+    border: 1px solid blue;
+}
+
+@media only screen and (max-width: 850px) {
+    .sc{
+        flex-direction: row-reverse;
+    }
+}
