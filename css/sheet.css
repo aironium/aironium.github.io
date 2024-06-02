@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.sc {
+    background-color: darkgrey;
+}
+
 .sc, #sc-side {
     display: flex;
 }
@@ -15,7 +19,8 @@ body {
 }
 
 .sc-side-tab {
-    border: 1px solid blue;
+    color: black;
+    background-color: yellow
 }
 
 @media only screen and (max-width: 1000px) {
@@ -25,5 +30,6 @@ body {
 
     #sc-side {
         flex-direction: row;
+        border-bottom: 2px outset darkgreen;
     }
 }
