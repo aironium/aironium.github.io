@@ -15,7 +15,6 @@ body {
 }
 
 #sc-main, #sc-side{
-    border: 1px solid red;
 }
 
 .sc-side-tab {
@@ -26,10 +25,13 @@ body {
 @media only screen and (max-width: 1000px) {
     .sc{
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     #sc-side {
         flex-direction: row;
         border-bottom: 2px outset darkgreen;
+        justify-content: center;
+        padding: 10px;
     }
 }
